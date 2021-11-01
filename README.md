@@ -1,1 +1,1 @@
-# E-commerce_mini_project
+# E-commerce_mini-project
