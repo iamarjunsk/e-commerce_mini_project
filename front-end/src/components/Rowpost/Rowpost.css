@@ -1,0 +1,33 @@
+.rowpost{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+
+    flex-flow: wrap;
+
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    
+    flex-flow: wrap;
+    
+}
+.cont img{
+    width: 200px;
+    height: 350px;
+}
+.row1,.row2,.row3,.row4,.row5{
+    width: 200px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+
+}
+.head{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+}
