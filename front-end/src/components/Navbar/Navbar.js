@@ -4,7 +4,7 @@ import {Search} from "@mui/icons-material"
 import {ShoppingCart} from "@mui/icons-material"
 import{HorizontalSplit} from "@mui/icons-material"
 import{Close} from "@mui/icons-material"
-function Appbar() {
+function Navbar() {
     return (
         <div className="navbar">
             <input type="checkbox" id="check" />
@@ -35,4 +35,4 @@ function Appbar() {
     )
 }
 
-export default Appbar
+export default Navbar
