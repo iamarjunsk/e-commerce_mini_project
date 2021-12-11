@@ -1,5 +1,3 @@
-import React from 'react'
-import Appbar from './components/Navbar/Appbar'
 import Head from './components/Header/Head'
 import Rowpost from './components/Rowpost/Rowpost';
 import Footer from './components/Footer/Footer';
