@@ -1,13 +1,15 @@
-import Head from './components/Header/Head'
-import Rowpost from './components/Rowpost/Rowpost';
-import Footer from './components/Footer/Footer';
+import Home from './Pages/Home';
+import React from 'react';
+import './App.css';
+import {BrowserRouter as Router,Route, Routes} from 'react-router-dom'
 function App() {
   return (
     <div>
-        <Appbar />
-        <Head/>
-        <Rowpost/>
-       <Footer/>
+        <Router> 
+          <Routes>
+        <Route  path='/' element={<Home />}/>
+        </Routes>
+        </Router>
     </div>
   );
 }
